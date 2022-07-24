@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myModule">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.8.2/angular.min.js"></script>
+    <title>Practical 3-2</title>
+</head>
+
+<body ng-app="myModule">
+    <div user-define-directives></div>
+    <script>
+        const app = angular
+            .module("myModule", [])
+            .directive("userDefineDirectives", () => {
+                return {
+                    restrict: "EA",
+                    template: "<h1>Hii Freinds, My name is Divyesh Variya….</h1>"
+                }
+            })
+    </script>
+</body>
+
+</html>
