@@ -1,0 +1,69 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  text-align: "center";
+  background-color: rgb(179, 255, 0);
+}
+
+a {
+  color: #00B7FF;
+}
+
+h1{
+  color: red;
+  margin-left: 600px;
+}
+
+/* #list1 .form-control {
+  border-color: transparent;
+  }
+  #list1 .form-control:focus {
+  border-color: transparent;
+  box-shadow: none;
+  }
+  #list1 .select-input.form-control[readonly]:not([disabled]) {
+  background-color: #fbfbfb;
+  } */
+  .search-field
+  {
+    width:50%;
+    margin-left: 300px;
+    margin-bottom: 20px;
+    position:relative;
+    left:23px;
+  }
+  .checkbox
+  {
+    margin:1rem;
+  }
+
+  .card
+  {
+    flex-direction: row !important;
+  }
+  .create-field{
+    width:50%;
+    font-size: x-large;
+    margin-left: 100px;
+    margin-top: 35px;
+  }
+  .none-list
+  {
+    list-style-type: none;
+  }
+  .record
+  {
+    color:red;
+  }
+  .todoname
+  {
+    width:500px;
+    align-content: center;
+    text-decoration: none;
+    color:black;
+    padding: 1rem;
+  }
+  ul li {
+    
+  }
+
